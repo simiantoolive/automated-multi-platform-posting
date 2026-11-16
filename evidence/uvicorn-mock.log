@@ -1,0 +1,12 @@
+INFO:     Started server process [13720]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:1137 (Press CTRL+C to quit)
+INFO:     127.0.0.1:1138 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:1138 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:1138 - "GET /openapi.json HTTP/1.1" 200 OK
+2026-11-16 15:16:29,417 INFO publisher request_id=c4db50b0-6480-48cf-b129-5a0194c28321 mode=mock simulated_count=5 published_count=0
+INFO:     127.0.0.1:1138 - "POST /api/v1/publish HTTP/1.1" 200 OK
+2026-11-16 15:16:29,423 INFO publisher request_id=4c7e8245-a1ed-4fef-ae95-95f403ea3a7a mode=mock simulated_count=5 published_count=0
+INFO:     127.0.0.1:1138 - "POST /posting HTTP/1.1" 200 OK
+INFO:     127.0.0.1:1138 - "POST /api/v1/publish HTTP/1.1" 422 Unprocessable Entity

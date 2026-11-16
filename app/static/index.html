@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Postroom · Connect & publish</title><link rel="stylesheet" href="/static/style.css"><script defer src="/static/app.js"></script></head>
+<body>
+<header><a class="brand" href="/"><span class="brand-icon">↗</span> postroom<span class="local">LOCAL WORKSPACE</span></a><a class="docs" href="/docs">API documentation ↗</a></header>
+<main>
+<div class="intro"><div><p class="eyebrow">ONE MESSAGE. FIVE DESTINATIONS.</p><h1>Your accounts.<br>One place to publish.</h1><p class="lede">Connect your social accounts, write your message,<br class="desktop"> and send it to the platforms you choose.</p></div><div class="mode-wrap"><span id="mode" class="badge">Loading workspace…</span><p>Connections are private to this browser session.<br>Reconnect after restarting the local server.</p></div></div>
+<div id="notice" role="status" aria-live="polite" hidden></div>
+<div class="workspace">
+<section class="connections" aria-labelledby="accounts-title"><div class="section-head"><div><p class="eyebrow">01 / CONNECT</p><h2 id="accounts-title">Your social accounts</h2></div><span id="count" class="count">0 / 5 connected</span></div><p class="section-note" id="connect-note">Connect any account to get started. Connecting never publishes a post.</p><div id="accounts"></div>
+<div id="page-choice" class="subform" hidden><label for="pages">Choose your Facebook Page</label><select id="pages"></select><button id="choose-page" class="primary">Connect this Page</button></div>
+<form id="bluesky-form" class="subform" hidden><h3>Connect Bluesky</h3><p>Use an app password from Bluesky settings, not your main password. It stays in this server’s memory for your session.</p><label for="handle">Bluesky handle</label><input id="handle" name="handle" placeholder="you.bsky.social" autocomplete="username" required><label for="password">App password</label><input id="password" name="password" type="password" autocomplete="off" required><div class="form-actions"><button type="button" id="cancel-bluesky" class="quiet">Cancel</button><button class="primary" type="submit">Connect Bluesky</button></div></form>
+<p class="footnote">Disconnect removes the connection from this demo. You can revoke app access in the social platform’s settings.</p></section>
+<section class="composer" aria-labelledby="compose-title"><p class="eyebrow">02 / COMPOSE</p><h2 id="compose-title">Make your next announcement.</h2><p class="section-note">One short message. Include exactly one full website link.</p><form id="publish-form"><label for="message">Your message</label><textarea id="message" rows="7" placeholder="Something worth sharing… https://example.com" maxlength="200" required></textarea><div class="text-meta"><span>Include one http:// or https:// link</span><span id="chars">0 / 200</span></div><div class="destinations"><span>Publishing to</span><strong id="destinations">No accounts selected</strong></div><p id="publish-help">Connect and select at least one account.</p><button id="publish" class="primary publish" type="submit" disabled>Connect accounts to continue <span>↗</span></button></form><p class="privacy">Your tokens are never shown in the browser or written to the project’s .env file.</p></section>
+</div>
+<section id="results-section" hidden aria-labelledby="results-title"><div class="section-head"><div><p class="eyebrow">03 / RESULTS</p><h2 id="results-title">Publishing results</h2></div><span id="result-summary"></span></div><div id="results"></div></section>
+<footer>Built for clear, honest publishing.<span>FastAPI · Official platform APIs</span></footer>
+</main></body></html>

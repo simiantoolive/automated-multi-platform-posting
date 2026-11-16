@@ -1,0 +1,14 @@
+{
+  "mode": "mock",
+  "server_started": true,
+  "health": {
+    "status": "ok",
+    "mode": "mock"
+  },
+  "swagger_status": 200,
+  "publish_status": 200,
+  "assignment_status": 200,
+  "overlength_status": 422,
+  "external_posts_created": 0,
+  "live_platforms_tested": []
+}

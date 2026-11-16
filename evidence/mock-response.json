@@ -1,0 +1,96 @@
+{
+  "request_id": "c4db50b0-6480-48cf-b129-5a0194c28321",
+  "mode": "mock",
+  "success": false,
+  "success_count": 0,
+  "failure_count": 0,
+  "simulated_count": 5,
+  "total_count": 5,
+  "results": [
+    {
+      "platform": "facebook",
+      "status": "simulated",
+      "mode": "mock",
+      "post_id": null,
+      "posted_url": null,
+      "url_source": null,
+      "public_access": null,
+      "accessibility_verification": "not_checked",
+      "date": null,
+      "time": null,
+      "timestamp_source": null,
+      "error": null,
+      "warnings": [
+        "MOCK MODE: no API request was made and no post was published."
+      ]
+    },
+    {
+      "platform": "linkedin",
+      "status": "simulated",
+      "mode": "mock",
+      "post_id": null,
+      "posted_url": null,
+      "url_source": null,
+      "public_access": null,
+      "accessibility_verification": "not_checked",
+      "date": null,
+      "time": null,
+      "timestamp_source": null,
+      "error": null,
+      "warnings": [
+        "MOCK MODE: no API request was made and no post was published."
+      ]
+    },
+    {
+      "platform": "x",
+      "status": "simulated",
+      "mode": "mock",
+      "post_id": null,
+      "posted_url": null,
+      "url_source": null,
+      "public_access": null,
+      "accessibility_verification": "not_checked",
+      "date": null,
+      "time": null,
+      "timestamp_source": null,
+      "error": null,
+      "warnings": [
+        "MOCK MODE: no API request was made and no post was published."
+      ]
+    },
+    {
+      "platform": "mastodon",
+      "status": "simulated",
+      "mode": "mock",
+      "post_id": null,
+      "posted_url": null,
+      "url_source": null,
+      "public_access": null,
+      "accessibility_verification": "not_checked",
+      "date": null,
+      "time": null,
+      "timestamp_source": null,
+      "error": null,
+      "warnings": [
+        "MOCK MODE: no API request was made and no post was published."
+      ]
+    },
+    {
+      "platform": "bluesky",
+      "status": "simulated",
+      "mode": "mock",
+      "post_id": null,
+      "posted_url": null,
+      "url_source": null,
+      "public_access": null,
+      "accessibility_verification": "not_checked",
+      "date": null,
+      "time": null,
+      "timestamp_source": null,
+      "error": null,
+      "warnings": [
+        "MOCK MODE: no API request was made and no post was published."
+      ]
+    }
+  ]
+}
